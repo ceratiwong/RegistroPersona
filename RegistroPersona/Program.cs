@@ -56,10 +56,12 @@ class Program()
         do
         {
             Console.Clear();
+            Console.WriteLine("Feliz día de las madres");
             Console.WriteLine("1. Agregar");
             Console.WriteLine("2. Mostrar");
             Console.WriteLine("3. Eliminar");
             Console.WriteLine("4. Salir");
+            Console.Write("Opción: ");
             op = int.Parse(Console.ReadLine());
         } while (op != 4);
     }
